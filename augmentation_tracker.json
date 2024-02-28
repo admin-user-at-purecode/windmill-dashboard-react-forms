@@ -34,7 +34,7 @@
 
         "CTA":{
             "count":1,
-            "location":"below the pageTitle",
+            "location":"below the inputWithButtonContainer",
             "description": "contains icon , text and link"
         },
 
@@ -79,7 +79,7 @@
         },
         "validationForm":{
             "count":1,
-            "location":"below the microInteractionsContainer",
+            "location":"below the pageTitle",
             "description":"contains three validation inputs",
             "children":{
                 "input":{
