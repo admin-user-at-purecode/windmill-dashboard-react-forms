@@ -34,7 +34,7 @@
 
         "CTA":{
             "count":1,
-            "location":"below the pageTitle",
+            "location":"below the inputWithButtonContainer",
             "description": "contains icon , text and link"
         },
 
@@ -103,7 +103,7 @@
         },
         "inputWithButtonContainer":{
             "count":1,
-            "location":"below the inputWithIconContainer",
+            "location":"below the pageTitle",
             "description":"contains input with buttons",
             "children":{
                 "inputWithButton":{
