@@ -1,0 +1,119 @@
+{
+    "theme_augmentations": {
+        "color": "red",
+        "font": "Arial",
+        "size": "12px",
+        "background": "white",
+        "border": "1px solid black",
+        "radius": "5px",
+        "shadow": "2px 2px 2px 2px #888888"
+    },
+    "component_names":
+    [
+        "Header",
+        "Sidebar",
+        "pageTitle",
+        "CTA",
+        "microInteractionsContainer",
+        "validationForm",
+        "inputWithIconContainer",
+        "inputWithButtonContainer"
+    ],
+    "component_counts":
+    {
+        "Header" : {
+            "count": 1,
+            "location": "Top of the page",
+            "description": "Title, Search, dropdown in flex container"
+        },
+        "Sidebar" : {
+            "count": 1,
+            "location": "left of the page",
+            "description": "List items in the conatiner and Dropdown"
+        },
+
+        "CTA":{
+            "count":1,
+            "location":"below the pageTitle",
+            "description": "contains icon , text and link"
+        },
+
+        "pageTitle":{
+            "count":1,
+            "location":"below the Header and right of the Sidebar",
+            "description":"Title of the page"
+        },
+        "microInteractionsContainer":{
+            "count":1,
+            "location":"below the CTA",
+            "description":"contains inputs, radiogroup, select, multiselect, textarea and checkbox",
+            "children":{
+                "nameInput":{
+                    "count":2,
+                    "location":"at the top in conatiner",
+                    "description":"input with label"
+                },
+                "radioGroup":{
+                    "count":1,
+                    "location":"below the input",
+                    "description":"contains three Label elements which has radio inputs with respective span for each"
+                },
+                "select":{
+                    "count":1,
+                    "location":"below the radioGroup",
+                },
+                "multiselect":{
+                    "count":1,
+                    "location":"below the select"
+                },
+                "textarea":{
+                    "count":1,
+                    "location":"below the multiselect"
+                },
+                "checkbox":{
+                    "count":1,
+                    "location":"bottom of the container"
+                }
+
+            }
+        },
+        "validationForm":{
+            "count":1,
+            "location":"below the microInteractionsContainer",
+            "description":"contains three validation inputs",
+            "children":{
+                "input":{
+                    "count":3,
+                    "location":"all three inputs placed one below another",
+                    "description":"contains label and input"
+                }
+            }
+        },
+        "inputWithIconContainer":{
+            "count":1,
+            "location":"below the validationForm",
+            "description":"contains input with icons",
+            "children":{
+                "inputWithIcon":{
+                    "count":2,
+                    "location":"all two inputs placed one below another",
+                    "description":"contains input and icon"
+                }
+            }
+        },
+        "inputWithButtonContainer":{
+            "count":1,
+            "location":"below the inputWithIconContainer",
+            "description":"contains input with buttons",
+            "children":{
+                "inputWithButton":{
+                    "count":2,
+                    "location":"all two inputs placed one below another",
+                    "description":"contains input and button"
+                }
+            }
+        }
+
+
+    }
+}
