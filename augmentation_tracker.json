@@ -90,7 +90,7 @@
             }
         },
         "inputWithIconContainer":{
-            "count":1,
+            "count":2,
             "location":"below the validationForm",
             "description":"contains input with icons",
             "children":{
