@@ -9,7 +9,6 @@ function FormsPage() {
   return (
     <div>
       <h1 className="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200 pageTitle">Forms</h1>
-      <CTA />
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Elements</h2>
 
       <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 microInteractionsContainer">
