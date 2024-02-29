@@ -1,16 +1,22 @@
-import React from 'react'
+import React from "react";
 
-import { Input, HelperText, Label, Select, Textarea } from '@windmill/react-ui'
+import { Input, HelperText, Label, Select, Textarea } from "@windmill/react-ui";
 
-import { MailIcon } from '../assets/icons'
-import CTA from '../components/CTA'
+import { MailIcon } from "../assets/icons";
+import CTA from "../components/CTA";
 
 function FormsPage() {
   return (
     <div>
-      <h1 className="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200 pageTitle">Forms</h1>
+      <h1 className="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200 pageTitle">
+        Forms
+      </h1>
       <CTA />
-      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Elements</h2>
+      <CTA />
+
+      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+        Elements
+      </h2>
 
       <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 microInteractionsContainer">
         <Label className="nameInput">
@@ -37,7 +43,12 @@ function FormsPage() {
               <span className="ml-2">Business</span>
             </Label>
             <Label disabled className="ml-6" radio>
-              <Input disabled type="radio" value="disabled" name="accountType" />
+              <Input
+                disabled
+                type="radio"
+                value="disabled"
+                name="accountType"
+              />
               <span className="ml-2">Disabled</span>
             </Label>
           </div>
@@ -66,7 +77,11 @@ function FormsPage() {
 
         <Label className="mt-4 textarea">
           <span>Message</span>
-          <Textarea className="mt-1" rows="3" placeholder="Enter some long form content." />
+          <Textarea
+            className="mt-1"
+            rows="3"
+            placeholder="Enter some long form content."
+          />
         </Label>
 
         <Label className="mt-6 checkbox" check>
@@ -77,7 +92,9 @@ function FormsPage() {
         </Label>
       </div>
 
-      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Validation</h2>
+      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+        Validation
+      </h2>
 
       <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 validationForm">
         <Label className="input">
@@ -95,12 +112,16 @@ function FormsPage() {
         <Label className="mt-4 input">
           <span>Helper text</span>
           <Input className="mt-1" placeholder="Jane Doe" />
-          <HelperText>Your password must be at least 6 characters long.</HelperText>
+          <HelperText>
+            Your password must be at least 6 characters long.
+          </HelperText>
         </Label>
       </div>
 
       {/* <!-- Inputs with icons --> */}
-      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Icons</h2>
+      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+        Icons
+      </h2>
 
       <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 inputWithIconContainer">
         <Label className="inputWithIcon">
@@ -133,7 +154,9 @@ function FormsPage() {
       </div>
 
       {/* <!-- Inputs with buttons --> */}
-      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Buttons</h2>
+      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+        Buttons
+      </h2>
 
       <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 inputWithButtonContainer">
         <Label className="inputWithButton">
@@ -163,7 +186,7 @@ function FormsPage() {
         </Label>
       </div>
     </div>
-  )
+  );
 }
 
-export default FormsPage
+export default FormsPage;

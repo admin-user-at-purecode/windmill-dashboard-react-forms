@@ -33,7 +33,7 @@
         },
 
         "CTA":{
-            "count":1,
+            "count":2,
             "location":"below the pageTitle",
             "description": "contains icon , text and link"
         },
