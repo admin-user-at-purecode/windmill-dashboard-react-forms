@@ -44,7 +44,7 @@
             "description":"Title of the page"
         },
         "microInteractionsContainer":{
-            "count":1,
+            "count":2,
             "location":"below the CTA",
             "description":"contains inputs, radiogroup, select, multiselect, textarea and checkbox",
             "children":{
