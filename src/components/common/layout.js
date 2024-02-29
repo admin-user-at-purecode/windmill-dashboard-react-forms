@@ -6,11 +6,11 @@ import Header from '../header/header';
 const Layout = ({ children }) => {
   return (
     <Windmill usePreferences>
-      <div className="flex h-screen fixed w-screen">
+      <div className="flex h-screen">
         <Sidebar />
         <div className="flex flex-col flex-1">
           <Header />
-          <div className="flex-1 p-4 dark:bg-gray-800  overflow-y-auto">
+          <div className="flex-1 p-4 dark:bg-gray-800">
             {children}
           </div>
         </div>
