@@ -78,7 +78,7 @@
             }
         },
         "validationForm":{
-            "count":1,
+            "count":2,
             "location":"below the microInteractionsContainer",
             "description":"contains three validation inputs",
             "children":{
