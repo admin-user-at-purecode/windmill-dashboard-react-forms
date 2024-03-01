@@ -14,7 +14,6 @@
         "Sidebar",
         "pageTitle",
         "CTA",
-        "microInteractionsContainer",
         "validationForm",
         "inputWithIconContainer",
         "inputWithButtonContainer"
@@ -43,48 +42,15 @@
             "location":"below the Header and right of the Sidebar",
             "description":"Title of the page"
         },
-        "microInteractionsContainer":{
-            "count":1,
-            "location":"below the CTA",
-            "description":"contains inputs, radiogroup, select, multiselect, textarea and checkbox",
-            "children":{
-                "nameInput":{
-                    "count":2,
-                    "location":"at the top in conatiner",
-                    "description":"input with label"
-                },
-                "radioGroup":{
-                    "count":1,
-                    "location":"below the input",
-                    "description":"contains three Label elements which has radio inputs with respective span for each"
-                },
-                "select":{
-                    "count":1,
-                    "location":"below the radioGroup",
-                },
-                "multiselect":{
-                    "count":1,
-                    "location":"below the select"
-                },
-                "textarea":{
-                    "count":1,
-                    "location":"below the multiselect"
-                },
-                "checkbox":{
-                    "count":1,
-                    "location":"bottom of the container"
-                }
 
-            }
-        },
         "validationForm":{
             "count":1,
             "location":"below the microInteractionsContainer",
-            "description":"contains three validation inputs",
+            "description":"contains two validation inputs",
             "children":{
                 "input":{
-                    "count":3,
-                    "location":"all three inputs placed one below another",
+                    "count":2,
+                    "location":"all two inputs placed one below another",
                     "description":"contains label and input"
                 }
             }
