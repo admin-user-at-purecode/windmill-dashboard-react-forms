@@ -41,6 +41,20 @@ function FormsPage() {
               <span className="ml-2">Disabled</span>
             </Label>
           </div>
+          <div className="mt-2 radioGroup">
+            <Label radio>
+              <Input type="radio" value="personal" name="accountType" />
+              <span className="ml-2">Personal</span>
+            </Label>
+            <Label className="ml-6" radio>
+              <Input type="radio" value="business" name="accountType" />
+              <span className="ml-2">Business</span>
+            </Label>
+            <Label disabled className="ml-6" radio>
+              <Input disabled type="radio" value="disabled" name="accountType" />
+              <span className="ml-2">Disabled</span>
+            </Label>
+          </div>
         </div>
 
         <Label className="mt-4 select">
@@ -50,6 +64,17 @@ function FormsPage() {
             <option>$5,000</option>
             <option>$10,000</option>
             <option>$25,000</option>
+          </Select>
+        </Label>
+
+        <Label className="mt-4 multiselect">
+          <span>Multiselect</span>
+          <Select className="mt-1" multiple>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+            <option>Option 5</option>
           </Select>
         </Label>
 
@@ -77,29 +102,8 @@ function FormsPage() {
         </Label>
       </div>
 
-      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Validation</h2>
 
-      <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 validationForm">
-        <Label className="input">
-          <span>Invalid input</span>
-          <Input className="mt-1" valid={false} placeholder="Jane Doe" />
-          <HelperText valid={false}>Your password is too short.</HelperText>
-        </Label>
 
-        <Label className="mt-4 input">
-          <span>Valid input</span>
-          <Input className="mt-1" valid={true} placeholder="Jane Doe" />
-          <HelperText valid={true}>Your password is strong.</HelperText>
-        </Label>
-
-        <Label className="mt-4 input">
-          <span>Helper text</span>
-          <Input className="mt-1" placeholder="Jane Doe" />
-          <HelperText>Your password must be at least 6 characters long.</HelperText>
-        </Label>
-      </div>
-
-      {/* <!-- Inputs with icons --> */}
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Icons</h2>
 
       <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 inputWithIconContainer">
@@ -132,7 +136,6 @@ function FormsPage() {
         </Label>
       </div>
 
-      {/* <!-- Inputs with buttons --> */}
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Buttons</h2>
 
       <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 inputWithButtonContainer">
