@@ -17,7 +17,6 @@
         "microInteractionsContainer",
         "validationForm",
         "inputWithIconContainer",
-        "inputWithButtonContainer"
     ],
     "component_counts":
     {
@@ -101,18 +100,6 @@
                 }
             }
         },
-        "inputWithButtonContainer":{
-            "count":1,
-            "location":"below the inputWithIconContainer",
-            "description":"contains input with buttons",
-            "children":{
-                "inputWithButton":{
-                    "count":2,
-                    "location":"all two inputs placed one below another",
-                    "description":"contains input and button"
-                }
-            }
-        }
 
 
     }
