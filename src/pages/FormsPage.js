@@ -9,7 +9,6 @@ function FormsPage() {
   return (
     <div>
       <h1 className="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200 pageTitle">Forms</h1>
-      <CTA />
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Elements</h2>
 
       <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 microInteractionsContainer">
@@ -157,6 +156,19 @@ function FormsPage() {
               placeholder="Jane Doe"
             />
             <button className="absolute inset-y-0 right-0 px-4 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-r-md active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">
+              Click
+            </button>
+          </div>
+        </Label>
+
+        <Label className="inputWithButton">
+          <span>Button left</span>
+          <div className="relative">
+            <input
+              className="block w-full pl-20 mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray form-input"
+              placeholder="Jane Doe"
+            />
+            <button className="absolute inset-y-0 px-4 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-l-md active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray">
               Click
             </button>
           </div>

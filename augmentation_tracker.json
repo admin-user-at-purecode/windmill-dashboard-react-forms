@@ -13,7 +13,6 @@
         "Header",
         "Sidebar",
         "pageTitle",
-        "CTA",
         "microInteractionsContainer",
         "validationForm",
         "inputWithIconContainer",
@@ -32,12 +31,6 @@
             "description": "List items in the conatiner and Dropdown"
         },
 
-        "CTA":{
-            "count":1,
-            "location":"below the pageTitle",
-            "description": "contains icon , text and link"
-        },
-
         "pageTitle":{
             "count":1,
             "location":"below the Header and right of the Sidebar",
@@ -45,7 +38,7 @@
         },
         "microInteractionsContainer":{
             "count":1,
-            "location":"below the CTA",
+            "location":"below the pageTitle",
             "description":"contains inputs, radiogroup, select, multiselect, textarea and checkbox",
             "children":{
                 "nameInput":{
@@ -107,8 +100,8 @@
             "description":"contains input with buttons",
             "children":{
                 "inputWithButton":{
-                    "count":2,
-                    "location":"all two inputs placed one below another",
+                    "count":3,
+                    "location":"all three inputs placed one below another",
                     "description":"contains input and button"
                 }
             }
