@@ -91,7 +91,7 @@
             "children":{
                 "inputWithIcon":{
                     "count":1,
-                    "location":"all two inputs placed one below another",
+                    "location":"input placed inside the container",
                     "description":"contains input and icon"
                 }
             }
