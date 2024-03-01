@@ -83,7 +83,7 @@
             "description":"contains three validation inputs",
             "children":{
                 "input":{
-                    "count":3,
+                    "count":5,
                     "location":"all three inputs placed one below another",
                     "description":"contains label and input"
                 }

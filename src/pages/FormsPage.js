@@ -93,6 +93,18 @@ function FormsPage() {
         </Label>
 
         <Label className="mt-4 input">
+          <span>Invalid input</span>
+          <Input className="mt-1" valid={false} placeholder="Jane Doe" />
+          <HelperText valid={false}>Your password is too short.</HelperText>
+        </Label>
+
+        <Label className="mt-4 input">
+          <span>Valid input</span>
+          <Input className="mt-1" valid={true} placeholder="Jane Doe" />
+          <HelperText valid={true}>Your password is strong.</HelperText>
+        </Label>
+
+        <Label className="mt-4 input">
           <span>Helper text</span>
           <Input className="mt-1" placeholder="Jane Doe" />
           <HelperText>Your password must be at least 6 characters long.</HelperText>
