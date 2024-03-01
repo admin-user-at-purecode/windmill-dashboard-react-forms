@@ -13,7 +13,6 @@
         "Header",
         "Sidebar",
         "pageTitle",
-        "CTA",
         "microInteractionsContainer",
         "validationForm",
         "inputWithIconContainer",
@@ -32,11 +31,6 @@
             "description": "List items in the conatiner and Dropdown"
         },
 
-        "CTA":{
-            "count":1,
-            "location":"below the pageTitle",
-            "description": "contains icon , text and link"
-        },
 
         "pageTitle":{
             "count":1,
@@ -45,7 +39,7 @@
         },
         "microInteractionsContainer":{
             "count":1,
-            "location":"below the CTA",
+            "location":"below the validationForm",
             "description":"contains inputs, radiogroup, select, multiselect, textarea and checkbox",
             "children":{
                 "nameInput":{
@@ -79,7 +73,7 @@
         },
         "validationForm":{
             "count":1,
-            "location":"below the microInteractionsContainer",
+            "location":"below the inputWithButtonContainer",
             "description":"contains three validation inputs",
             "children":{
                 "input":{
@@ -91,7 +85,7 @@
         },
         "inputWithIconContainer":{
             "count":1,
-            "location":"below the validationForm",
+            "location":"below the inputWithButtonContainer",
             "description":"contains input with icons",
             "children":{
                 "inputWithIcon":{
@@ -103,7 +97,7 @@
         },
         "inputWithButtonContainer":{
             "count":1,
-            "location":"below the inputWithIconContainer",
+            "location":"below the pageTitle",
             "description":"contains input with buttons",
             "children":{
                 "inputWithButton":{
