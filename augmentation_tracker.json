@@ -15,7 +15,6 @@
         "pageTitle",
         "CTA",
         "microInteractionsContainer",
-        "validationForm",
         "inputWithIconContainer",
         "inputWithButtonContainer"
     ],
@@ -77,21 +76,10 @@
 
             }
         },
-        "validationForm":{
-            "count":1,
-            "location":"below the microInteractionsContainer",
-            "description":"contains three validation inputs",
-            "children":{
-                "input":{
-                    "count":3,
-                    "location":"all three inputs placed one below another",
-                    "description":"contains label and input"
-                }
-            }
-        },
+
         "inputWithIconContainer":{
             "count":1,
-            "location":"below the validationForm",
+            "location":"below the microInteractionsContainer",
             "description":"contains input with icons",
             "children":{
                 "inputWithIcon":{
