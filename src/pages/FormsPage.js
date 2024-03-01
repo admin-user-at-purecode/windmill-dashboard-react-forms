@@ -13,15 +13,7 @@ function FormsPage() {
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Elements</h2>
 
       <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 microInteractionsContainer">
-        <Label className="nameInput">
-          <span>Name</span>
-          <Input className="mt-1" placeholder="Jane Doe" />
-        </Label>
 
-        <Label className="mt-4 nameInput">
-          <span>Disabled</span>
-          <Input disabled className="mt-1" placeholder="Jane Doe" />
-        </Label>
 
         <div className="mt-4">
           {/* TODO: Check if this label is accessible, or fallback */}
