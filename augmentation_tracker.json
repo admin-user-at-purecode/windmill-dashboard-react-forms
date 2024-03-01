@@ -10,7 +10,6 @@
     },
     "component_names":
     [
-        "Header",
         "Sidebar",
         "pageTitle",
         "CTA",
@@ -21,11 +20,6 @@
     ],
     "component_counts":
     {
-        "Header" : {
-            "count": 1,
-            "location": "Top of the page",
-            "description": "Title, Search, dropdown in flex container"
-        },
         "Sidebar" : {
             "count": 1,
             "location": "left of the page",
@@ -40,7 +34,7 @@
 
         "pageTitle":{
             "count":1,
-            "location":"below the Header and right of the Sidebar",
+            "location":"at the top of page",
             "description":"Title of the page"
         },
         "microInteractionsContainer":{
