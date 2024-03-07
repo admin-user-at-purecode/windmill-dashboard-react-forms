@@ -103,7 +103,7 @@
         },
         "inputWithButtonContainer":{
             "count":1,
-            "location":"below the inputWithIconContainer",
+            "location":"beside the inputWithIconContainer",
             "description":"contains input with buttons",
             "children":{
                 "inputWithButton":{
