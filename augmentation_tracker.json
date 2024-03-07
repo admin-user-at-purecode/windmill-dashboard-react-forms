@@ -24,7 +24,7 @@
         "Header" : {
             "count": 1,
             "location": "Top of the page",
-            "description": "Title, Search, dropdown in flex container"
+            "description": "Title, Search, BellIcon, Avatar"
         },
         "Sidebar" : {
             "count": 1,
@@ -115,5 +115,6 @@
         }
 
 
-    }
+    },
+    "screen_and_layout_augmentations":["Removed Dropdown functionalities from Header"]
 }
