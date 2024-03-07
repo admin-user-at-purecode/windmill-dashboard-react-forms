@@ -79,20 +79,20 @@ function FormsPage() {
 
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Validation</h2>
 
-      <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 validationForm">
+      <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 grid md:grid-cols-2 gap-4 validationForm">
         <Label className="input">
           <span>Invalid input</span>
           <Input className="mt-1" valid={false} placeholder="Jane Doe" />
           <HelperText valid={false}>Your password is too short.</HelperText>
         </Label>
 
-        <Label className="mt-4 input">
+        <Label className=" input">
           <span>Valid input</span>
           <Input className="mt-1" valid={true} placeholder="Jane Doe" />
           <HelperText valid={true}>Your password is strong.</HelperText>
         </Label>
 
-        <Label className="mt-4 input">
+        <Label className=" input">
           <span>Helper text</span>
           <Input className="mt-1" placeholder="Jane Doe" />
           <HelperText>Your password must be at least 6 characters long.</HelperText>
