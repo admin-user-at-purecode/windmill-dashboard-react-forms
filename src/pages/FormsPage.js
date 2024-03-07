@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Input, HelperText, Label, Select, Textarea } from '@windmill/react-ui'
+import { Input, HelperText, Label, Select, Textarea, Card, CardBody } from '@windmill/react-ui'
 
 import { MailIcon } from '../assets/icons'
 import CTA from '../components/CTA'
@@ -10,6 +10,31 @@ function FormsPage() {
     <div>
       <h1 className="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200 pageTitle">Forms</h1>
       <CTA />
+      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Cards with title</h2>
+
+<div className="grid gap-6 mb-8 md:grid-cols-2">
+  <Card className="cardWithHeading">
+    <CardBody>
+      <p className="mb-4 font-semibold text-gray-600 dark:text-gray-300">Revenue</p>
+      <p className="text-gray-600 dark:text-gray-400">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, cum commodi a omnis
+        numquam quod? Totam exercitationem quos hic ipsam at qui cum numquam, sed amet
+        ratione! Ratione, nihil dolorum.
+      </p>
+    </CardBody>
+  </Card>
+
+  <Card colored className="text-white bg-purple-600 cardWithHeading">
+    <CardBody>
+      <p className="mb-4 font-semibold">Colored card</p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, cum commodi a omnis
+        numquam quod? Totam exercitationem quos hic ipsam at qui cum numquam, sed amet
+        ratione! Ratione, nihil dolorum.
+      </p>
+    </CardBody>
+  </Card>
+</div>
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Elements</h2>
 
       <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 microInteractionsContainer">
@@ -162,6 +187,8 @@ function FormsPage() {
           </div>
         </Label>
       </div>
+
+
     </div>
   )
 }

@@ -17,7 +17,8 @@
         "microInteractionsContainer",
         "validationForm",
         "inputWithIconContainer",
-        "inputWithButtonContainer"
+        "inputWithButtonContainer",
+        "cardWithHeading"
     ],
     "component_counts":
     {
@@ -37,6 +38,11 @@
             "location":"below the pageTitle",
             "description": "contains icon , text and link"
         },
+        "cardWithHeading":{
+            "count": 2,
+            "location": "below the CTA",
+            "description": "contains heading and text"
+        },
 
         "pageTitle":{
             "count":1,
@@ -45,7 +51,7 @@
         },
         "microInteractionsContainer":{
             "count":1,
-            "location":"below the CTA",
+            "location":"below the cardWithHeading",
             "description":"contains inputs, radiogroup, select, multiselect, textarea and checkbox",
             "children":{
                 "nameInput":{
