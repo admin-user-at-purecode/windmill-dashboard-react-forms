@@ -16,6 +16,7 @@
         "CTA",
         "microInteractionsContainer",
         "validationForm",
+        "InfoCard",
         "inputWithIconContainer",
         "inputWithButtonContainer"
     ],
@@ -89,9 +90,14 @@
                 }
             }
         },
+        "InfoCard":{
+            "count": 4,
+            "location": "below the validationForm",
+            "description": "contains icon heading and count"
+        },
         "inputWithIconContainer":{
             "count":1,
-            "location":"below the validationForm",
+            "location":"below the InfoCard",
             "description":"contains input with icons",
             "children":{
                 "inputWithIcon":{
