@@ -29,7 +29,7 @@
         "Sidebar" : {
             "count": 1,
             "location": "left of the page",
-            "description": "List items in the conatiner and Dropdown"
+            "description": "List items in the conatiner"
         },
 
         "CTA":{
@@ -115,5 +115,6 @@
         }
 
 
-    }
+    },
+    "screen_and_layout_augmentations":["Removed Dropdown functionality button from Sidebar"]
 }
