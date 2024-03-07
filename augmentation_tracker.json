@@ -14,6 +14,7 @@
         "Sidebar",
         "pageTitle",
         "CTA",
+        "fullWidthCard",
         "microInteractionsContainer",
         "validationForm",
         "inputWithIconContainer",
@@ -36,6 +37,11 @@
             "count":1,
             "location":"below the pageTitle",
             "description": "contains icon , text and link"
+        },
+        "fullWidthCard":{
+            "count":1,
+            "location":"below the CTA",
+            "description":"contains text"
         },
 
         "pageTitle":{

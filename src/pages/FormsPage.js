@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Input, HelperText, Label, Select, Textarea } from '@windmill/react-ui'
+import { Input, HelperText, Label, Select, Textarea, Card, CardBody } from '@windmill/react-ui'
 
 import { MailIcon } from '../assets/icons'
 import CTA from '../components/CTA'
@@ -10,6 +10,18 @@ function FormsPage() {
     <div>
       <h1 className="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200 pageTitle">Forms</h1>
       <CTA />
+
+      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Big section cards</h2>
+
+      
+
+<Card className="mb-8 shadow-md fullWidthCard">
+  <CardBody>
+    <p className="text-sm text-gray-600 dark:text-gray-400">
+      Large, full width sections goes here
+    </p>
+  </CardBody>
+</Card>
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Elements</h2>
 
       <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 microInteractionsContainer">
