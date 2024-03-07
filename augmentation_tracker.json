@@ -91,7 +91,7 @@
         },
         "inputWithIconContainer":{
             "count":1,
-            "location":"below the validationForm",
+            "location":"beside the validationForm",
             "description":"contains input with icons",
             "children":{
                 "inputWithIcon":{
@@ -103,7 +103,7 @@
         },
         "inputWithButtonContainer":{
             "count":1,
-            "location":"below the inputWithIconContainer",
+            "location":"below the validationForm",
             "description":"contains input with buttons",
             "children":{
                 "inputWithButton":{
