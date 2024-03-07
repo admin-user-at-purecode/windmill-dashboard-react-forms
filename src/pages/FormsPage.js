@@ -12,18 +12,18 @@ function FormsPage() {
       <CTA />
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Elements</h2>
 
-      <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 microInteractionsContainer">
-        <Label className="nameInput">
+      <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 grid md:grid-cols-2 gap-4 microInteractionsContainer">
+        <Label className="nameInput   ">
           <span>Name</span>
           <Input className="mt-1" placeholder="Jane Doe" />
         </Label>
 
-        <Label className="mt-4 nameInput">
+        <Label className="nameInput  ">
           <span>Disabled</span>
           <Input disabled className="mt-1" placeholder="Jane Doe" />
         </Label>
 
-        <div className="mt-4">
+        <div >
           {/* TODO: Check if this label is accessible, or fallback */}
           {/* <span className="text-sm text-gray-700 dark:text-gray-400">Account Type</span> */}
           <Label>Account Type</Label>
@@ -43,7 +43,7 @@ function FormsPage() {
           </div>
         </div>
 
-        <Label className="mt-4 select">
+        <Label className="select">
           <span>Requested Limit</span>
           <Select className="mt-1">
             <option>$1,000</option>
@@ -53,7 +53,7 @@ function FormsPage() {
           </Select>
         </Label>
 
-        <Label className="mt-4 multiselect">
+        <Label className="multiselect">
           <span>Multiselect</span>
           <Select className="mt-1" multiple>
             <option>Option 1</option>
@@ -64,7 +64,7 @@ function FormsPage() {
           </Select>
         </Label>
 
-        <Label className="mt-4 textarea">
+        <Label className="textarea">
           <span>Message</span>
           <Textarea className="mt-1" rows="3" placeholder="Enter some long form content." />
         </Label>
