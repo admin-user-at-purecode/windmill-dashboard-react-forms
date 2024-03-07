@@ -108,7 +108,7 @@
             "children":{
                 "inputWithButton":{
                     "count":2,
-                    "location":"all two inputs placed one below another",
+                    "location":"two inputs are aligned using grid",
                     "description":"contains input and button"
                 }
             }

@@ -135,7 +135,7 @@ function FormsPage() {
       {/* <!-- Inputs with buttons --> */}
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Buttons</h2>
 
-      <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 inputWithButtonContainer">
+      <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 grid md:grid-cols-2 gap-4 inputWithButtonContainer">
         <Label className="inputWithButton">
           <span>Button left</span>
           <div className="relative">
@@ -149,7 +149,7 @@ function FormsPage() {
           </div>
         </Label>
 
-        <Label className="mt-4 inputWithButton">
+        <Label className="inputWithButton">
           <span>Button right</span>
           <div className="relative text-gray-500 focus-within:text-purple-600">
             <input
