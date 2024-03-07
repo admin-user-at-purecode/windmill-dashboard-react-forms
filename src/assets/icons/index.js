@@ -16,6 +16,10 @@ import { ReactComponent as OutlinePersonIcon } from './outlinePerson.svg'
 import { ReactComponent as OutlineCogIcon } from './outlineCog.svg'
 import { ReactComponent as OutlineLogoutIcon } from './outlineLogout.svg'
 import { ReactComponent as MailIcon } from './mail.svg'
+import { ReactComponent as CartIcon } from './cart.svg'
+import { ReactComponent as ChatIcon } from './chat.svg'
+import { ReactComponent as MoneyIcon } from './money.svg'
+import { ReactComponent as PeopleIcon } from './people.svg'
 
 export {
   ButtonsIcon,
@@ -35,5 +39,9 @@ export {
   OutlinePersonIcon,
   OutlineCogIcon,
   OutlineLogoutIcon,
-  MailIcon
+  MailIcon,
+  CartIcon,
+  ChatIcon,
+  MoneyIcon,
+  PeopleIcon
 }
