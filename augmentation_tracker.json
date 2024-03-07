@@ -45,7 +45,7 @@
         },
         "microInteractionsContainer":{
             "count":1,
-            "location":"below the CTA",
+            "location":"below the CTA and beside the validationForm",
             "description":"contains inputs, radiogroup, select, multiselect, textarea and checkbox",
             "children":{
                 "nameInput":{
@@ -79,7 +79,7 @@
         },
         "validationForm":{
             "count":1,
-            "location":"below the microInteractionsContainer",
+            "location":"beside the microInteractionsContainer",
             "description":"contains three validation inputs",
             "children":{
                 "input":{
@@ -103,7 +103,7 @@
         },
         "inputWithButtonContainer":{
             "count":1,
-            "location":"below the inputWithIconContainer",
+            "location":"at the bottom of the page",
             "description":"contains input with buttons",
             "children":{
                 "inputWithButton":{
