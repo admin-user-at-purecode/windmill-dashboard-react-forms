@@ -17,7 +17,8 @@
         "microInteractionsContainer",
         "validationForm",
         "inputWithIconContainer",
-        "inputWithButtonContainer"
+        "inputWithButtonContainer",
+        "fullWidthCard"
     ],
     "component_counts":
     {
@@ -112,7 +113,12 @@
                     "description":"contains input and button"
                 }
             }
-        }
+        },
+        "fullWidthCard":{
+            "count":1,
+            "location": "below the CTA",
+            "description":"contains text"
+        },
 
 
     }
