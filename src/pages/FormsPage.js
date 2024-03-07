@@ -102,7 +102,7 @@ function FormsPage() {
       {/* <!-- Inputs with icons --> */}
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Icons</h2>
 
-      <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 inputWithIconContainer">
+      <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800 grid md:grid-cols-2 gap-4 inputWithIconContainer">
         <Label className="inputWithIcon">
           <span>Icon left</span>
           {/* <!-- focus-within sets the color for the icon when input is focused --> */}
@@ -117,7 +117,7 @@ function FormsPage() {
           </div>
         </Label>
 
-        <Label className="mt-4 inputWithIcon">
+        <Label className="inputWithIcon">
           <span className="text-gray-700 dark:text-gray-400">Icon right</span>
           {/* <!-- focus-within sets the color for the icon when input is focused --> */}
           <div className="relative text-gray-500 focus-within:text-purple-600 dark:focus-within:text-purple-400">
