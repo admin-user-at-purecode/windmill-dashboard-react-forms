@@ -17,7 +17,8 @@
         "microInteractionsContainer",
         "validationForm",
         "inputWithIconContainer",
-        "inputWithButtonContainer"
+        "inputWithButtonContainer",
+        "cardWithHeading"
     ],
     "component_counts":
     {
@@ -112,7 +113,13 @@
                     "description":"contains input and button"
                 }
             }
-        }
+        },
+        
+        "cardWithHeading":{
+            "count": 2,
+            "location": "bottom of the page",
+            "description": "contains heading and text"
+        },
 
 
     }
