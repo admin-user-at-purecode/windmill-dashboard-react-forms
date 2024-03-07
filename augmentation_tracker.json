@@ -84,7 +84,7 @@
             "children":{
                 "input":{
                     "count":3,
-                    "location":"all three inputs placed one below another",
+                    "location":"three inputs are aligned using grid",
                     "description":"contains label and input"
                 }
             }
